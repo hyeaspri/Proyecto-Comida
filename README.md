@@ -1,1 +1,9 @@
 # Proyecto-Comida
+
+En el ejercicio grupal se trabajó con una estructura sencilla pero bien pensada para la aplicación de gestión de alacena. Se separó el proyecto en tres archivos principales porque cada uno cumple una función diferente: el HTML se encarga de mostrar la información y organizar las pantallas, el CSS da el estilo y hace que la aplicación se vea ordenada y agradable, y el JavaScript permite que el usuario interactúe con la página, como cambiar de pantalla o registrar un producto. Esta forma de trabajar hace que todo sea más claro y evita que el código se vuelva desordenado.
+
+Una ventaja importante de esta estructura es que facilita mucho los cambios. Si se quiere mejorar el diseño, solo se modifica el CSS; si se necesita ajustar alguna funcionalidad, se hace en el JavaScript, sin tocar lo demás. Además, al trabajar en grupo, cada persona puede enfocarse en una parte del proyecto sin afectar el trabajo de los otros, lo que hace el desarrollo más práctico y organizado.
+
+Toda la aplicación funciona del lado del cliente, es decir, directamente en el navegador. El usuario puede navegar entre las pantallas, llenar el formulario y ver mensajes de confirmación sin que la página se recargue. Esto hace que la experiencia sea más fluida y rápida, y permite entender mejor cómo funciona una aplicación web desde el frontend.
+
+La separación entre cliente y servidor es clave en este tipo de aplicaciones. Aunque en este ejercicio no se usa un servidor, la estructura deja claro que el cliente se encarga de mostrar la información y captar las acciones del usuario, mientras que el servidor, en un proyecto más completo, sería el responsable de guardar los datos, validarlos y manejar la seguridad. Tener esta separación ayuda a que la aplicación sea más segura, más fácil de mantener y preparada para crecer en el futuro.
