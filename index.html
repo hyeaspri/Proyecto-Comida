@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alacena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="pantalla-principal" class="active">
+        <header>
+            <h1>Página Principal</h1>
+        </header>
+
+        <main>
+            <div class="card">
+                <h3>Alimentos próximos a vencer</h3>
+                <ul>
+                    <li>Verduras: Lechuga, Tomate...</li>
+                    <li>Proteína: Pechuga, Carne...</li>
+                </ul>
+                <button class="btn-small">Ver más</button>
+            </div>
+
+            <div class="card">
+                <h3>Sugerencia de entrada</h3>
+                <p><strong>Ensalada "Nombre"</strong></p>
+                <p>10 min | <button class="btn-small">Ver receta</button></p>
+            </div>
+
+            <div class="card">
+                <h3>Sugerencia de plato fuerte</h3>
+                <p><strong>Carne Goulash</strong></p>
+                <p>30 min | <button class="btn-small">Ver receta</button></p>
+            </div>
+
+            <div class="card">
+                <h3>Próximo mercado</h3>
+                <ul>
+                    <li>2lb Carne</li>
+                    <li>1kg Tomate</li>
+                </ul>
+                <div class="bubble">Sugerencia: 1kg Cebolla</div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav">
+            <button onclick="navegar('pantalla-registro')">Registrar</button>
+            <button>Alacena</button>
+            <button>Mercado</button>
+            <button>Recetas</button>
+        </nav>
+    </section>
+
+    <section id="pantalla-registro">
+        <header>
+            <button onclick="navegar('pantalla-principal')" class="back-btn">←</button>
+            <h1>Registrar Producto</h1>
+        </header>
+
+        <form id="form-registro" class="form-container">
+            <div class="input-group">
+                <label>Nombre producto</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="input-group">
+                <label>Cantidad</label>
+                <input type="number" id="cantidad" required>
+            </div>
+            <div class="input-group">
+                <label>Valor</label>
+                <input type="number" id="valor">
+            </div>
+            <div class="input-group">
+                <label>Fecha vencimiento</label>
+                <input type="date" id="fecha" required>
+            </div>
+            
+            <button type="submit" class="btn-save">Guardar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
