@@ -1,78 +1,104 @@
 # Información General del Sistema
 
-## Problema: 
+## El problema que se quiere resolver: 
 
 La falta de organización y planificación a la hora de manejar los alimentos en casa. Esto hace que a veces falten productos básicos, que otros se echen a perder por vencimiento o mal almacenamiento, y que la comida se vuelva repetitiva y poco balanceada, afectando incluso la salud.
 Muchas amas y amos de casa, por falta de tiempo, cansancio o limitaciones económicas, terminan haciendo compras pequeñas y frecuentes, sin una lista clara ni revisar bien lo que ya tienen en la alacena o en la nevera. Al final, esto provoca gastos innecesarios, desperdicio de comida y más estrés al momento de preparar comidas que sean saludables, variadas y que se ajusten al presupuesto.
 
-## Objetivo General: 
+## Los usuarios del sistema:  
+Los usuarios del sistema serían principalmente las familias y, en especial, las personas encargadas de la compra y preparación de los alimentos en el hogar. No obstante, su alcance puede extenderse a distintos perfiles que comparten la necesidad de organizar mejor su alimentación:
 
-Mejorar la organización y la planificación de la alimentación en los hogares, con el fin de reducir el desperdicio de comida, aprovechar mejor el presupuesto familiar y asegurar una dieta variada, saludable y equilibrada.
+- *Amas y amos de casa: principales usuarios, ya que gestionan la alimentación diaria y requieren apoyo para planificar compras, controlar inventarios y organizar menús de forma eficiente.*
 
-## Objetivo especificos: 
+- *Familias en general: beneficiarias directas de una alimentación más variada, equilibrada y económica, así como de la reducción del desperdicio de alimentos.*
 
-- Diseñar estrategias que ayuden a elaborar listas de compras claras y ajustadas a las necesidades reales de cada familia.
-- Implementar métodos sencillos de control y registro para saber qué alimentos hay en la alacena y en la nevera.
-- Promover el uso de recetas fáciles, económicas y nutritivas que permitan variar más la alimentación diaria.
-- Fomentar hábitos de compra más organizados y eficientes, reduciendo las compras improvisadas y el desgaste de quienes se encargan del hogar.
-- Disminuir el desperdicio de alimentos mediante una mejor planificación del consumo y un almacenamiento adecuado.
+- *Estudiantes y profesionales independientes: personas con poco tiempo disponible que necesitan soluciones prácticas para organizar sus comidas y optimizar su presupuesto.* 
 
+- *Adultos mayores: quienes pueden apoyarse en recordatorios de vencimiento y planificación sencilla para mantener una dieta adecuada y evitar pérdidas.*
+
+- *Pequeños negocios de comida casera: emprendedores que pueden utilizar la aplicación para gestionar insumos, planificar compras y reducir mermas.*
+
+## La entrada, el proceso y la salida del sistema: 
+
+### *Entrada*
+
+- El sistema recibe información clave proporcionada por el usuario, entre ella:
+
+- Datos del inventario doméstico: alimentos disponibles en la alacena y la nevera (nombre, cantidad, categoría y fecha de vencimiento).
+
+- Preferencias y restricciones familiares: presupuesto disponible, gustos, alergias, tipo de dieta y tiempo para cocinar.
+
+- Información sobre compras realizadas o listas de mercado pendientes.
+
+- Recetas seleccionadas por el usuario o parámetros para generar sugerencias automáticas.
+
+### *Proceso* 
+- El sistema analiza y transforma los datos ingresados mediante los siguientes procesos:
+
+- Gestión de inventario: registro, actualización y control de productos, incluyendo el cálculo automático de días restantes para su vencimiento y generación de alertas.
+
+- Generación de listas de compra: elaboración automática de listas basadas en productos faltantes, próximos a vencer, presupuesto disponible y menús planificados.
+
+- Planificación de menús: organización de comidas semanales equilibradas y variadas según las preferencias y necesidades del usuario.
+
+- Motor de recomendaciones: sugerencia de recetas prácticas, económicas y nutritivas en función de los ingredientes disponibles.
+
+- Análisis de consumo: cálculo del ahorro económico, reducción del desperdicio y evaluación básica del balance nutricional.
+
+### *Salida* 
+
+- Como resultado, el sistema proporciona:
+
+- Listas de compras organizadas y ajustadas al presupuesto.
+
+- Menús semanales variados y saludables.
+
+- Recetas adaptadas a los ingredientes disponibles en el hogar.
+
+- Alertas de productos próximos a vencer.
+
+- Reportes sobre ahorro económico, reducción de desperdicio y mejora en la calidad de la alimentación.
+
+  
 ## Alcance: 
 
 La desorganización en la alimentación dentro del hogar, algo que termina afectando directamente la calidad de vida de las familias. Esto incluye no planificar bien las compras, no saber con certeza qué hay en la alacena o en la nevera, dejar que los alimentos se dañen o se venzan, y repetir siempre los mismos platos.
 Todo esto lleva a una dieta poco variada y desequilibrada, que puede afectar tanto la salud como la economía familiar. Además, impacta especialmente a las amas y amos de casa, quienes muchas veces tienen poco tiempo, están cansados o cuentan con un presupuesto limitado, lo que hace más difícil preparar comidas que sean saludables, económicas y diferentes. En resumen, el problema no es solo la mala organización de los alimentos, sino también sus consecuencias en la nutrición, el bienestar y los gastos del hogar.
 
 
-## Solucion: 
 
-Sugerimos una aplicaciÓn web que pretende estar enfocada en organizar y planificar la alimentación del hogar, ofreciendo herramientas prácticas y fáciles de usar:
-
-- **Gestión de inventario doméstico**: Permitiría registrar los alimentos disponibles en la alacena y la nevera, llevar un control sencillo de lo que hay en casa y recibir alertas cuando algún producto esté próximo a vencer, evitando así el desperdicio. Además, mostraría de forma clara qué productos faltan.
-
-- **Listas de compras inteligentes**: Generaría listas de compras automáticas según el inventario disponible y las necesidades de la familia. También permitiría ajustar la lista al presupuesto y vincularla con recetas sugeridas, para comprar solo lo necesario y evitar gastos innecesarios.
-
-- **Recetario saludable y económico**: Ofrecería recetas variadas, fáciles y nutritivas basadas en los ingredientes disponibles. Incluiría filtros por tiempo de preparación, costo y valor nutricional, además de sugerencias para aprovechar alimentos antes de que se dañen.
-
-- **Planificador de menús semanales**: Facilitaría la organización de las comidas durante la semana, ayudando a evitar la monotonía y promoviendo un mejor balance nutricional. El plan podría exportarse directamente a la lista de compras.
-
-- **Reportes y estadísticas**: Brindaría información sobre el ahorro generado al reducir el desperdicio de alimentos y mostraría el nivel de variedad en la dieta familiar, permitiendo evaluar mejoras en la alimentación y en la economía del hogar.
 
 ## Requerimientos Funcionales
 
 | ID     | Nombre                         | Descripción | Prioridad |
 |--------|--------------------------------|------------|-----------|
 | RF001  | Pantalla Principal | El sistema deberá mostrar una pantalla principal con acceso a los módulos: Registrar Alimentos, Alacena, Mercado y Recetas. | Alta |
-| RF002  | Registro de Usuario | El sistema deberá permitir el registro de usuarios con credenciales (correo y contraseña). | Alta |
-| RF003  | Inicio de Sesión | El sistema deberá permitir a los usuarios autenticarse mediante correo y contraseña. | Alta |
-| RF004  | Gestión de Roles | El sistema deberá soportar dos tipos de usuario: Usuario Normal y Administrador. | Alta |
-| RF005  | Permisos Usuario Normal | El Usuario Normal podrá registrar alimentos, consultar la alacena, generar mercado y visualizar recetas. | Alta |
-| RF006  | Permisos Administrador | El Administrador podrá gestionar usuarios, editar o eliminar cualquier alimento registrado y administrar recetas del sistema. | Alta |
-| RF007  | Registrar Alimentos | El sistema deberá permitir ingresar nombre del producto, cantidad, categoría y fecha de vencimiento. | Alta |
-| RF008  | Guardar en Base de Datos | El sistema deberá almacenar los alimentos registrados en la base de datos. | Alta |
-| RF009  | Editar y Eliminar Producto | El sistema deberá permitir modificar o eliminar alimentos previamente registrados. | Media |
-| RF010  | Visualizar Alacena | El sistema deberá mostrar la lista completa de alimentos registrados. | Alta |
-| RF011  | Cálculo de Vencimiento | El sistema deberá calcular automáticamente los días restantes para el vencimiento de cada alimento en tiempo real. | Alta |
-| RF012  | Generar Lista de Mercado | El sistema deberá generar automáticamente una lista de mercado basada en productos faltantes o próximos a vencerse. | Alta |
-| RF013  | Clasificación por Categorías | El sistema deberá organizar los productos del mercado por categorías (proteínas, frutas, vegetales, carbohidratos, etc.). | Media |
-| RF014  | Sugerencia de Recetas | El sistema deberá sugerir recetas basadas en los alimentos disponibles en la alacena. | Alta |
-| RF015  | Detalle de Recetas | El sistema deberá mostrar imagen, tiempo de preparación, ingredientes e instrucciones de cada receta. | Media |
+| RF002  | Registrar Alimentos | El sistema deberá permitir ingresar nombre del producto, cantidad, categoría y fecha de vencimiento. | Alta |
+| RF003  | Guardar en Base de Datos | El sistema deberá almacenar los alimentos registrados en la base de datos. | Alta |
+| RF004  | Editar y Eliminar Producto | El sistema deberá permitir modificar o eliminar alimentos previamente registrados. | Media |
+| RF005  | Visualizar Alacena | El sistema deberá mostrar la lista completa de alimentos registrados. | Alta |
+| RF006  | Cálculo de Vencimiento | El sistema deberá calcular automáticamente los días restantes para el vencimiento de cada alimento en tiempo real. | Alta |
+| RF007  | Alertas de Vencimiento | El sistema deberá notificar al usuario cuando un alimento esté próximo a vencer. | Media |
+| RF008  | Generar Lista de Mercado | El sistema deberá generar automáticamente una lista de mercado basada en productos faltantes o próximos a vencerse. | Alta |
+| RF009  | Clasificación por Categorías | El sistema deberá organizar los productos del mercado por categorías (proteínas, frutas, vegetales, carbohidratos, etc.). | Media |
+| RF010  | Sugerencia de Recetas | El sistema deberá sugerir recetas basadas en los alimentos disponibles en la alacena. | Alta |
+| RF011  | Detalle de Recetas | El sistema deberá mostrar imagen, tiempo de preparación, ingredientes e instrucciones de cada receta. | Media |
+| RF012  | Marcar Productos Comprados | El sistema deberá permitir marcar productos como comprados dentro de la lista de mercado. | Media |
 
 ## Requerimientos No Funcionales
 
 | ID     | Nombre                         | Descripción | Prioridad |
 |--------|--------------------------------|------------|-----------|
-| RNF001 | Usabilidad de Registro | El sistema deberá permitir que un usuario nuevo registre un producto en un tiempo máximo de 30 segundos, sin necesidad de consultar un manual de instrucciones. | Alta |
-| RNF002 | Diseño Visual Coherente | La interfaz deberá mantener una paleta de colores coherente y consistente (por ejemplo, verde para acciones positivas y alertas visuales claras para productos próximos a vencer), con el fin de facilitar la lectura rápida y comprensión de la información. | Media |
-| RNF003 | Adaptabilidad Móvil | La interfaz deberá estar optimizada para dispositivos móviles, considerando que el registro de alimentos se realizará principalmente desde entornos como la cocina. | Alta |
-| RNF004 | Rendimiento de Carga | Las sugerencias de recetas y la actualización de la lista de “Próximo mercado” deberán cargarse en un tiempo máximo de 3 segundos después de que el usuario realice una acción. | Alta |
-| RNF005 | Capacidad de Respuesta | El sistema deberá soportar al menos 50 productos registrados por usuario sin afectar la fluidez del desplazamiento (scroll) en el módulo “Alacena”. | Media |
-| RNF006 | Seguridad de Acceso | Si la aplicación cuenta con sincronización en la nube, el acceso a la información del inventario deberá estar protegido mediante autenticación segura de usuario. | Alta |
-| RNF007 | Integridad de Datos | El sistema deberá validar que los campos “Cantidad” y “Valor” acepten únicamente datos numéricos antes de guardar la información en la base de datos. | Alta |
-| RNF008 | Disponibilidad | La aplicación deberá mantener una disponibilidad mínima del 99% del tiempo anual para garantizar el acceso constante a recetas y listas de mercado. | Media |
-| RNF009 | Localización de Formatos | El sistema deberá utilizar el formato de fecha regional (dd/mm/aaaa) para coincidir con el estándar local de entrada de datos del usuario. | Media |
-| RNF010 | Portabilidad | La aplicación deberá ser compatible con los navegadores web modernos más utilizados (Google Chrome, Mozilla Firefox y Safari). | Alta |
-
-
+| RNF001  | Usabilidad de Regustro | El sistema debe permitir que un usuario nuevo registre un producto en menos de 30 segundos sin necesidad de un manual de instrucciones.  | Alta |
+| RNF002  | Diseño Visual Coherente | La interfaz debe mantener una paleta de colores coherente (como el verde para mantener acciones positivas) tal sea para facilitar la lectura rapida de fechas vencimiento etc. | Media |
+| RNF003  | Adaptabilidad Móvil | La interfaz debe ser adaptable solo para dispositivos móviles, dado que el registro de alimentos suele hacerse desde la cocina.  | Alta |
+| RNF004  | Rendimiento de Carga | Las sugerencias de recetas y la actualización de la lista de "Próximo mercado" deben cargar en menos de 3 segundos tras realizar una acción. | Alta |
+| RNF005  | Capacidad de Respuesta |El sistema debe soportar al menos 50 productos registrados por usuario sin dañar la velocidad de desplazamiento (scroll) en la "Alacena". | Media |
+| RNF006  | Seguridad de Acceso | Si la aplicación se sincroniza, el acceso a la información del inventario debe estar protegido mediante autenticación de usuario.  | Alta |
+| RNF007  | Integridad de Datos | El sistema debe validar que los cmapos de "Cantidad" y "Valor" solo acepten datos numericos antes de guardar. | Alta |
+| RNF008  | Disponibilidad | La aplicación debe estar operativa al menos el 99% del tiempo para garantizar el acceso constante a las recetas y listas de mercado. | Media |
+| RNF009  | Localización de Formatos | El sistema debe utilizar el formato de fecha regional (dd/mm/aaaa) para conincidir con la entrada de datos del usuario. | Media |
+| RNF010  | Portabilidad | La aplicación debe ser funcional en los navegadores web más modernos (Chrome, Firefox, Safari). | Alta |
 
 
 
