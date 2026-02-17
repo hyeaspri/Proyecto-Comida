@@ -67,7 +67,7 @@ Sugerimos una aplicaciÓn web que pretende estar enfocada en organizar y planifi
 | RNF007  | Integridad de Datos | El sistema debe validar que los cmapos de "Cantidad" y "Valor" solo acepten datos numericos antes de guardar. | Alta |
 | RNF008  | Disponibilidad | La aplicación debe estar operativa al menos el 99% del tiempo para garantizar el acceso constante a las recetas y listas de mercado. | Media |
 | RNF009  | Localización de Formatos | El sistema debe utilizar el formato de fecha regional (dd/mm/aaaa) para conincidir con la entrada de datos del usuario. | Media |
-| RNF010  | Portabilidad | La aplicación debe ser funcional en los navegadores web más modernos (Chrome,Firefox, Safari). | Alta |
+| RNF010  | Portabilidad | La aplicación debe ser funcional en los navegadores web más modernos (Chrome, Firefox, Safari). | Alta |
 
 
 
