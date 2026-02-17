@@ -83,5 +83,3 @@ Sugerimos una aplicaciÓn web que pretende estar enfocada en organizar y planifi
 
 
 
-Requerimientos no funcionales:
-
