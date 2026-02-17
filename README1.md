@@ -1,1 +1,2 @@
 Problema:
+Requerimientos funcionales
