@@ -1,10 +1,15 @@
-objetivos:
+Problema: La falta de organización y planificación a la hora de manejar los alimentos en casa. Esto hace que a veces falten productos básicos, que otros se echen a perder por vencimiento o mal almacenamiento, y que la comida se vuelva repetitiva y poco balanceada, afectando incluso la salud.
+Muchas amas y amos de casa, por falta de tiempo, cansancio o limitaciones económicas, terminan haciendo compras pequeñas y frecuentes, sin una lista clara ni revisar bien lo que ya tienen en la alacena o en la nevera. Al final, esto provoca gastos innecesarios, desperdicio de comida y más estrés al momento de preparar comidas que sean saludables, variadas y que se ajusten al presupuesto.
 
-Alcance:
+objetivo General: Mejorar la organización y la planificación de la alimentación en los hogares, con el fin de reducir el desperdicio de comida, aprovechar mejor el presupuesto familiar y asegurar una dieta variada, saludable y equilibrada.
 
-Problema:
+Alcance: La desorganización en la alimentación dentro del hogar, algo que termina afectando directamente la calidad de vida de las familias. Esto incluye no planificar bien las compras, no saber con certeza qué hay en la alacena o en la nevera, dejar que los alimentos se dañen o se venzan, y repetir siempre los mismos platos.
+Todo esto lleva a una dieta poco variada y desequilibrada, que puede afectar tanto la salud como la economía familiar. Además, impacta especialmente a las amas y amos de casa, quienes muchas veces tienen poco tiempo, están cansados o cuentan con un presupuesto limitado, lo que hace más difícil preparar comidas que sean saludables, económicas y diferentes. En resumen, el problema no es solo la mala organización de los alimentos, sino también sus consecuencias en la nutrición, el bienestar y los gastos del hogar.
+
 
  Solucion:
+
+
 
 
 
