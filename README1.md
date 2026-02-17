@@ -58,18 +58,17 @@ Sugerimos una aplicaciÓn web que pretende estar enfocada en organizar y planifi
 
 | ID     | Nombre                         | Descripción | Prioridad |
 |--------|--------------------------------|------------|-----------|
-| RNF001  | Pantalla Principal | El sistema deberá mostrar una pantalla principal con acceso a los módulos: Registrar Alimentos, Alacena, Mercado y Recetas. | Alta |
-| RF002  | Registrar Alimentos | El sistema deberá permitir ingresar nombre del producto, cantidad, categoría y fecha de vencimiento. | Alta |
-| RF003  | Guardar en Base de Datos | El sistema deberá almacenar los alimentos registrados en la base de datos. | Alta |
-| RF004  | Editar y Eliminar Producto | El sistema deberá permitir modificar o eliminar alimentos previamente registrados. | Media |
-| RF005  | Visualizar Alacena | El sistema deberá mostrar la lista completa de alimentos registrados. | Alta |
-| RF006  | Cálculo de Vencimiento | El sistema deberá calcular automáticamente los días restantes para el vencimiento de cada alimento en tiempo real. | Alta |
-| RF007  | Alertas de Vencimiento | El sistema deberá notificar al usuario cuando un alimento esté próximo a vencer. | Media |
-| RF008  | Generar Lista de Mercado | El sistema deberá generar automáticamente una lista de mercado basada en productos faltantes o próximos a vencerse. | Alta |
-| RF009  | Clasificación por Categorías | El sistema deberá organizar los productos del mercado por categorías (proteínas, frutas, vegetales, carbohidratos, etc.). | Media |
-| RF010  | Sugerencia de Recetas | El sistema deberá sugerir recetas basadas en los alimentos disponibles en la alacena. | Alta |
-| RF011  | Detalle de Recetas | El sistema deberá mostrar imagen, tiempo de preparación, ingredientes e instrucciones de cada receta. | Media |
-| RF012  | Marcar Productos Comprados | El sistema deberá permitir marcar productos como comprados dentro de la lista de mercado. | Media |
+| RNF001  | Usabilidad de Regustro | El sistema debe permitir que un usuario nuevo registre un producto en menos de 30 segundos sin necesidad de un manual de instrucciones.  | Alta |
+| RNF002  | Diseño Visual Coherente | La interfaz debe mantener una paleta de colores coherente (como el verde para mantener acciones positivas) tal sea para facilitar la lectura rapida de fechas vencimiento etc. | Media |
+| RNF003  | Adaptabilidad Móvil | La interfaz debe ser adaptable solo para dispositivos móviles, dado que el registro de alimentos suele hacerse desde la cocina.  | Alta |
+| RNF004  | Rendimiento de Carga | Las sugerencias de recetas y la actualización de la lista de "Próximo mercado" deben cargar en menos de 3 segundos tras realizar una acción. | Alta |
+| RNF005  | Capacidad de Respuesta |El sistema debe soportar al menos 50 productos registrados por usuario sin dañar la velocidad de desplazamiento (scroll) en la "Alacena". | Media |
+| RNF006  | Seguridad de Acceso | Si la aplicación se sincroniza, el acceso a la información del inventario debe estar protegido mediante autenticación de usuario.  | Alta |
+| RNF007  | Integridad de Datos | El sistema debe validar que los cmapos de "Cantidad" y "Valor" solo acepten datos numericos antes de guardar. | Alta |
+| RNF008  | Disponibilidad | La aplicación debe estar operativa al menos el 99% del tiempo para garantizar el acceso constante a las recetas y listas de mercado. | Media |
+| RNF009  | Localización de Formatos | El sistema debe utilizar el formato de fecha regional (dd/mm/aaaa) para conincidir con la entrada de datos del usuario. | Media |
+| RNF010  | Portabilidad | La aplicación debe ser funcional en los navegadores web más modernos (Chrome,Firefox, Safari). | Alta |
+
 
 
 
