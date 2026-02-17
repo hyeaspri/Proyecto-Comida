@@ -1,3 +1,5 @@
+# Información General del Sistema
+
 ## Problema: 
 
 La falta de organización y planificación a la hora de manejar los alimentos en casa. Esto hace que a veces falten productos básicos, que otros se echen a perder por vencimiento o mal almacenamiento, y que la comida se vuelva repetitiva y poco balanceada, afectando incluso la salud.
@@ -23,17 +25,17 @@ Todo esto lleva a una dieta poco variada y desequilibrada, que puede afectar tan
 
 ## Solucion: 
 
-Sugerimos una aplicacion web que pretende estar enfocada en organizar y planificar la alimentación del hogar, ofreciendo herramientas prácticas y fáciles de usar:
+Sugerimos una aplicaciÓn web que pretende estar enfocada en organizar y planificar la alimentación del hogar, ofreciendo herramientas prácticas y fáciles de usar:
 
--*Gestión de inventario doméstico*: Permitiría registrar los alimentos disponibles en la alacena y la nevera, llevar un control sencillo de lo que hay en casa y recibir alertas cuando algún producto esté próximo a vencer, evitando así el desperdicio. Además, mostraría de forma clara qué productos faltan.
+- **Gestión de inventario doméstico**: Permitiría registrar los alimentos disponibles en la alacena y la nevera, llevar un control sencillo de lo que hay en casa y recibir alertas cuando algún producto esté próximo a vencer, evitando así el desperdicio. Además, mostraría de forma clara qué productos faltan.
 
--*Listas de compras inteligentes*: Generaría listas de compras automáticas según el inventario disponible y las necesidades de la familia. También permitiría ajustar la lista al presupuesto y vincularla con recetas sugeridas, para comprar solo lo necesario y evitar gastos innecesarios.
+- **Listas de compras inteligentes**: Generaría listas de compras automáticas según el inventario disponible y las necesidades de la familia. También permitiría ajustar la lista al presupuesto y vincularla con recetas sugeridas, para comprar solo lo necesario y evitar gastos innecesarios.
 
--*Recetario saludable y económico*: Ofrecería recetas variadas, fáciles y nutritivas basadas en los ingredientes disponibles. Incluiría filtros por tiempo de preparación, costo y valor nutricional, además de sugerencias para aprovechar alimentos antes de que se dañen.
+- **Recetario saludable y económico**: Ofrecería recetas variadas, fáciles y nutritivas basadas en los ingredientes disponibles. Incluiría filtros por tiempo de preparación, costo y valor nutricional, además de sugerencias para aprovechar alimentos antes de que se dañen.
 
--*Planificador de menús semanales*: Facilitaría la organización de las comidas durante la semana, ayudando a evitar la monotonía y promoviendo un mejor balance nutricional. El plan podría exportarse directamente a la lista de compras.
+- **Planificador de menús semanales**: Facilitaría la organización de las comidas durante la semana, ayudando a evitar la monotonía y promoviendo un mejor balance nutricional. El plan podría exportarse directamente a la lista de compras.
 
--*Reportes y estadísticas*: Brindaría información sobre el ahorro generado al reducir el desperdicio de alimentos y mostraría el nivel de variedad en la dieta familiar, permitiendo evaluar mejoras en la alimentación y en la economía del hogar.
+- **Reportes y estadísticas**: Brindaría información sobre el ahorro generado al reducir el desperdicio de alimentos y mostraría el nivel de variedad en la dieta familiar, permitiendo evaluar mejoras en la alimentación y en la economía del hogar.
 
 ## Requerimientos Funcionales
 
