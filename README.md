@@ -1,4 +1,4 @@
-# Proyecto-Comida
+# Proyecto-Gestor de Inventario de Alacena
 
 En el ejercicio grupal se trabajó con una estructura sencilla pero bien pensada para la aplicación de gestión de alacena. Se separó el proyecto en tres archivos principales porque cada uno cumple una función diferente: el HTML se encarga de mostrar la información y organizar las pantallas, el CSS da el estilo y hace que la aplicación se vea ordenada y agradable, y el JavaScript permite que el usuario interactúe con la página, como cambiar de pantalla o registrar un producto. Esta forma de trabajar hace que todo sea más claro y evita que el código se vuelva desordenado.
 
