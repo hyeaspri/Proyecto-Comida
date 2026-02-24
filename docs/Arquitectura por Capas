@@ -1,4 +1,4 @@
-## Justificación de la Arquitectura
+##  Justificación de la Arquitectura
 
 Para el **Gestor de Inventario de Alacena** es más conveniente utilizar la **arquitectura por capas**, ya que nuestro programa cuenta con diferentes funcionalidades que, si se implementaran en una arquitectura tipo “spaghetti”, no se verían estructuradas ni organizadas.
 
