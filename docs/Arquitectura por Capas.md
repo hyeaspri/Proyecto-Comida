@@ -6,19 +6,19 @@ Con la arquitectura por capas buscamos mantener el código más ordenado, identi
 
 Las funcionalidades que la aplicación web tendrá son:
 
-- Guardar alimentos  
-- Calcular fechas de vencimiento  
-- Generar la lista de mercado  
-- Mostrar la información al usuario  
+1. Guardar alimentos
+2. Calcular fechas de vencimiento
+3. Generar la lista de mercado
+4. Mostrar la información al usuario  
 
 Si todo esto se mezcla en un solo lugar, el sistema se vuelve más complejo de entender y modificar.
 
 Con esta arquitectura pretendemos que cada elemento tenga su espacio definido. En nuestro caso:
 
-- **Modelo:** donde se gestionan los datos como Producto, Usuario y Receta.
-- **Servicio:** donde se encuentra la lógica del sistema, como calcular vencimientos o generar sugerencias.
-- **Controlador:** encargado de la interacción con el usuario.
-- **Tester:** donde se realizan las pruebas del sistema.
+1. **Modelo:** donde se gestionan los datos como Producto, Usuario y Receta.
+2. **Servicio:** donde se encuentra la lógica del sistema, como calcular vencimientos o generar sugerencias.
+3. **Controlador:** encargado de la interacción con el usuario.
+4. **Tester:** donde se realizan las pruebas del sistema.
 
 Inicialmente consideramos utilizar una arquitectura de microservicios, pero concluimos que nuestro proyecto no es lo suficientemente grande como para requerir la división en múltiples servicios independientes.
 
