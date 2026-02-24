@@ -1,7 +1,5 @@
 ## Requerimientos Funcionales
 
-## Requerimientos Funcionales
-
 | ID     | Nombre | Descripción | Prioridad |
 |--------|--------|------------|-----------|
 | RF001  | Pantalla Principal | El sistema deberá mostrar una pantalla principal con acceso a los módulos: Inventario, Mercado y Recetas. | Alta |
@@ -34,8 +32,6 @@
 | RNF010 | Compatibilidad | La aplicación deberá funcionar correctamente en navegadores web modernos como Google Chrome, Mozilla Firefox y Safari. | Alta |
 
 ## Cuadro de Roles del Sistema
-
-## Cuadro de Actores del Sistema
 
 | Actor | Requerimientos Funcionales Asociados | Requerimientos No Funcionales Asociados |
 |--------|--------------------------------------|------------------------------------------|
