@@ -33,7 +33,7 @@
 
 ## Cuadro de Roles del Sistema
 
-| Actor  | Requerimientos Funcionales Asociados | Requerimientos No Funcionales Asociados |
+| Actor | Requerimientos Funcionales Asociados | Requerimientos No Funcionales Asociados |
 |--------|--------------------------------------|------------------------------------------|
-| Usuario Normal RF002 Registro de Usuario<br>RF003 Inicio de Sesión<br>RF005 Gestión de Inventario<br>RF006 Visualización de Inventario<br>RF007 Cálculo de Vencimiento<br>RF008 Generación de Lista de Mercado<br>RF009 Clasificación por Categorías<br>RF010 Sugerencia de Recetas<br>RF011 Detalle de Recetas<br>RF012 Persistencia de Información | RNF001 Usabilidad<br>RNF002 Consistencia Visual<br>RNF003 Adaptabilidad Móvil<br>RNF004 Rendimiento<br>RNF005 Capacidad<br>RNF006 Seguridad<br>RNF007 Validación de Datos<br>RNF009 Formato de Fecha<br>RNF010 Compatibilidad |
-| Administrador  | RF003 Inicio de Sesión<br>RF004 Gestión de Roles<br>RF005 Gestión de Inventario<br>RF011 Detalle de Recetas<br>RF012 Persistencia de Información | RNF002 Consistencia Visual<br>RNF004 Rendimiento<br>RNF006 Seguridad<br>RNF007 Validación de Datos<br>RNF010 Compatibilidad |
+| Usuario Normal | RF002 Registro de Usuario<br>RF003 Inicio de Sesión<br>RF005 Gestión de Inventario<br>RF006 Visualización de Inventario<br>RF007 Cálculo de Vencimiento<br>RF008 Generación de Lista de Mercado<br>RF009 Clasificación por Categorías<br>RF010 Sugerencia de Recetas<br>RF011 Detalle de Recetas<br>RF012 Persistencia de Información | RNF001 Usabilidad<br>RNF002 Consistencia Visual<br>RNF003 Adaptabilidad Móvil<br>RNF004 Rendimiento<br>RNF005 Capacidad<br>RNF006 Seguridad<br>RNF007 Validación de Datos<br>RNF009 Formato de Fecha<br>RNF010 Compatibilidad |
+| Administrador | RF003 Inicio de Sesión<br>RF004 Gestión de Roles<br>RF005 Gestión de Inventario<br>RF011 Detalle de Recetas<br>RF012 Persistencia de Información | RNF002 Consistencia Visual<br>RNF004 Rendimiento<br>RNF006 Seguridad<br>RNF007 Validación de Datos<br>RNF010 Compatibilidad |
