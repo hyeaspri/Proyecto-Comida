@@ -8,56 +8,39 @@ Muchas amas y amos de casa, por falta de tiempo, cansancio o limitaciones econó
 ## Los usuarios del sistema:  
 Los usuarios del sistema serían principalmente las familias y, en especial, las personas encargadas de la compra y preparación de los alimentos en el hogar. No obstante, su alcance puede extenderse a distintos perfiles que comparten la necesidad de organizar mejor su alimentación:
 
-- *Amas y amos de casa: principales usuarios, ya que gestionan la alimentación diaria y requieren apoyo para planificar compras, controlar inventarios y organizar menús de forma eficiente.*
-
-- *Familias en general: beneficiarias directas de una alimentación más variada, equilibrada y económica, así como de la reducción del desperdicio de alimentos.*
-
-- *Estudiantes y profesionales independientes: personas con poco tiempo disponible que necesitan soluciones prácticas para organizar sus comidas y optimizar su presupuesto.* 
-
-- *Adultos mayores: quienes pueden apoyarse en recordatorios de vencimiento y planificación sencilla para mantener una dieta adecuada y evitar pérdidas.*
-
-- *Pequeños negocios de comida casera: emprendedores que pueden utilizar la aplicación para gestionar insumos, planificar compras y reducir mermas.*
+1. *Amas y amos de casa: principales usuarios, ya que gestionan la alimentación diaria y requieren apoyo para planificar compras, controlar inventarios y organizar menús de forma eficiente.*
+2. *Familias en general: beneficiarias directas de una alimentación más variada, equilibrada y económica, así como de la reducción del desperdicio de alimentos.*
+3. *Estudiantes y profesionales independientes: personas con poco tiempo disponible que necesitan soluciones prácticas para organizar sus comidas y optimizar su presupuesto.*
+4. *Adultos mayores: quienes pueden apoyarse en recordatorios de vencimiento y planificación sencilla para mantener una dieta adecuada y evitar pérdidas.*
+5. *Pequeños negocios de comida casera: emprendedores que pueden utilizar la aplicación para gestionar insumos, planificar compras y reducir mermas.*
 
 ## La entrada, el proceso y la salida del sistema: 
 
 ### *Entrada*
 
-- El sistema recibe información clave proporcionada por el usuario, entre ella:
-
-- Datos del inventario doméstico: alimentos disponibles en la alacena y la nevera (nombre, cantidad, categoría y fecha de vencimiento).
-
-- Preferencias y restricciones familiares: presupuesto disponible, gustos, alergias, tipo de dieta y tiempo para cocinar.
-
-- Información sobre compras realizadas o listas de mercado pendientes.
-
-- Recetas seleccionadas por el usuario o parámetros para generar sugerencias automáticas.
+1. El sistema recibe información clave proporcionada por el usuario, entre ella:
+2. Datos del inventario doméstico: alimentos disponibles en la alacena y la nevera (nombre, cantidad, categoría y fecha de vencimiento).
+3. Preferencias y restricciones familiares: presupuesto disponible, gustos, alergias, tipo de dieta y tiempo para cocinar.
+4. Información sobre compras realizadas o listas de mercado pendientes.
+5. Recetas seleccionadas por el usuario o parámetros para generar sugerencias automáticas.
 
 ### *Proceso* 
-- El sistema analiza y transforma los datos ingresados mediante los siguientes procesos:
-
-- Gestión de inventario: registro, actualización y control de productos, incluyendo el cálculo automático de días restantes para su vencimiento y generación de alertas.
-
-- Generación de listas de compra: elaboración automática de listas basadas en productos faltantes, próximos a vencer, presupuesto disponible y menús planificados.
-
-- Planificación de menús: organización de comidas semanales equilibradas y variadas según las preferencias y necesidades del usuario.
-
-- Motor de recomendaciones: sugerencia de recetas prácticas, económicas y nutritivas en función de los ingredientes disponibles.
-
-- Análisis de consumo: cálculo del ahorro económico, reducción del desperdicio y evaluación básica del balance nutricional.
+1. El sistema analiza y transforma los datos ingresados mediante los siguientes procesos:
+2. Gestión de inventario: registro, actualización y control de productos, incluyendo el cálculo automático de días restantes para su vencimiento y generación de alertas.
+3. Generación de listas de compra: elaboración automática de listas basadas en productos faltantes, próximos a vencer, presupuesto disponible y menús planificados.
+4. Planificación de menús: organización de comidas semanales equilibradas y variadas según las preferencias y necesidades del usuario.
+5. Motor de recomendaciones: sugerencia de recetas prácticas, económicas y nutritivas en función de los ingredientes disponibles.
+6. Análisis de consumo: cálculo del ahorro económico, reducción del desperdicio y evaluación básica del balance nutricional.
 
 ### *Salida* 
 
-- Como resultado, el sistema proporciona:
+Como resultado, el sistema proporciona:
 
-- Listas de compras organizadas y ajustadas al presupuesto.
-
-- Menús semanales variados y saludables.
-
-- Recetas adaptadas a los ingredientes disponibles en el hogar.
-
-- Alertas de productos próximos a vencer.
-
-- Reportes sobre ahorro económico, reducción de desperdicio y mejora en la calidad de la alimentación.
+1. Listas de compras organizadas y ajustadas al presupuesto.
+2. Menús semanales variados y saludables.
+3. Recetas adaptadas a los ingredientes disponibles en el hogar.
+4. Alertas de productos próximos a vencer.
+5. Reportes sobre ahorro económico, reducción de desperdicio y mejora en la calidad de la alimentación.
 
   
 ## Alcance: 
